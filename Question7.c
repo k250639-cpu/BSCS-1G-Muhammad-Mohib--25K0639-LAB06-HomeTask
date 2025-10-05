@@ -12,8 +12,6 @@ int main() {
         temp = count;
         count = count + prev;
         prev = temp;
-        if (count == 0) 
-            count = 1;
     }
     return 0;
 }
